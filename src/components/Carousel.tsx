@@ -13,12 +13,12 @@ const Carousel = () => {
     {
         title: "Personalized Health Solutions",
         description: "Experience healthcare tailored to your unique needs with our AI-powered platform that adapts and evolves with you, providing customized recommendations and real-time health insights.",
-        imageUrl: "https://hbr.org/resources/images/article_assets/2019/10/Oct19_22_1032609198.jpg",
+        imageUrl: "https://images.pexels.com/photos/2383010/pexels-photo-2383010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     },
     {
         title: "Building Healthier Communities Together",
         description: "Join our growing network of healthcare providers, organizations, and individuals committed to revolutionizing healthcare delivery through collaborative wellness programs and preventive care initiatives.",
-        imageUrl: "https://hbr.org/resources/images/article_assets/2019/10/Oct19_22_1032609198.jpg",
+        imageUrl: "https://images.pexels.com/photos/4719931/pexels-photo-4719931.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     }
     ];
 

@@ -1,18 +1,19 @@
 import { ArrowRight } from 'lucide-react';
-
+import bhc from "../assets/bhc.jpeg";
+import bhc1 from "../assets/bhc1.jpeg";
 const Cards = () => {
   const cardData = [
     {
       title: "Biggest Health Challenge ™",
       description: "The primary health challenge today is maintaining consistency in healthy habits. Despite awareness of exercise, diet, and preventive care benefits, many struggle with motivation and resource access. This leads to preventable health issues and higher healthcare costs.",
-      imageUrl: "https://hbr.org/resources/images/article_assets/2019/10/Oct19_22_1032609198.jpg",
+      imageUrl: bhc,
       link: "#",
     },
     {
       title: "Bimaflow",
       description: "BimaFlow is ApertaCura's flagship product, designed to seamlessly integrate health and wellness into everyday life. It is a hybrid wellness platform that connects individuals with health insuranceproviders while incentivizing and rewarding healthy behaviors.",
-      imageUrl: "https://hbr.org/resources/images/article_assets/2019/10/Oct19_22_1032609198.jpg",
-      link: "#",
+      imageUrl: bhc1,
+      link: "https://bimaflow.apertacura.com/",
     }
   ];
 
@@ -22,7 +23,7 @@ const Cards = () => {
         {cardData.map((card, index) => (
           <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
             {/* Image Container */}
-            <div className="relative h-48 overflow-hidden">
+            <div className="relative h-60 overflow-hidden">
               <img
                 src={card.imageUrl}
                 alt={card.title}

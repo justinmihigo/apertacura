@@ -1,13 +1,14 @@
 
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import bhc from "../assets/bhc1.jpeg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
     { title: 'Home', href: '#' },
-    { title: 'About', href: '#' },
+    { title: 'About', href: '#about' },
     { title: 'Services', href: '#' },
     { title: 'Contact', href: '#' }
   ];
@@ -18,8 +19,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <a href="#" className="text-xl font-bold text-gray-800">
-              Logo
+            <a href="/" className="w-10">
+              <img src={bhc} alt="bhc" />
             </a>
           </div>
 

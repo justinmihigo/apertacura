@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import bhc from "../assets/bhc1.jpeg";
+import apertacura from "../assets/apertacura.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,8 +19,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <a href="/" className="w-10">
-              <img src={bhc} alt="bhc" />
+            <a href="/" className="w-20">
+              <img src={apertacura} alt="apertacura" />
             </a>
           </div>
 

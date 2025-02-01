@@ -1,6 +1,6 @@
 import { ArrowRight } from 'lucide-react';
 import bhc from "../assets/bhc.jpeg";
-import bhc1 from "../assets/bhc1.jpeg";
+import bhc1 from "../assets/bimaflow.png";
 const Cards = () => {
   const cardData = [
     {

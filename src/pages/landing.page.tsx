@@ -21,7 +21,7 @@ const LandingPage: FunctionComponent = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                         <div className="p-4 bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                             <div className="relative h-50 top-0 overflow-hidden">
-                                <img src={apertacura} alt="apertacura" className="object-cover h-full w-full" />
+                                <img src={apertacura} alt="apertacura" className="object-cover h-full w-full hover:scale-105" />
                             </div>
                             <div>
                                 <p className="text-xl mt-4 font-bold">Apertacura</p>
@@ -32,7 +32,7 @@ const LandingPage: FunctionComponent = () => {
                         </div>
                         <div className="p-4 bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                             <div className="relative h-50 top-0 overflow-hidden">
-                                <img src={bhc} alt="apertacura" className="object-cover h-full w-full" />
+                                <img src={bhc} alt="apertacura" className="object-cover hover:scale-105 h-full w-full" />
                             </div>
                             <div>
                                 <p className="mt-4 text-xl font-bold">Biggest Health Challenge &trade;</p>

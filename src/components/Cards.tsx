@@ -18,8 +18,8 @@ const Cards = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto ">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+    <div className="max-w-7xl mx-auto p-6 ">
+      <div className="grid text-sm  md:text-base grid-cols-1 md:grid-cols-2 gap-12">
         {cardData.map((card, index) => (
           <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
             {/* Image Container */}

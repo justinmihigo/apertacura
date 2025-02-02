@@ -17,7 +17,7 @@ const LandingPage: FunctionComponent = () => {
                 <div>
                     <h1 className="text-3xl py-6 font-bold">About us</h1>
                 </div>
-                <div className="max-w-6xl py-4 p-6">
+                <div className="max-w-6xl text-sm md:text-base py-4 p-6">
                     <div >
                         <div className="p-4 bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                             

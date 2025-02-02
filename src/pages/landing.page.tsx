@@ -1,8 +1,8 @@
 import Cards from "../components/Cards"
 import Carousel from "../components/Carousel";
 import { FunctionComponent } from "react";
-import apertacura from "../assets/apertacura.png";
-import bhc from "../assets/bhc1.jpeg";
+// import apertacura from "../assets/apertacura.png";
+// import bhc from "../assets/bhc1.jpeg";
 
 const LandingPage: FunctionComponent = () => {
     return (

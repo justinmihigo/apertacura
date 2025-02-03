@@ -5,7 +5,7 @@ const Cards = () => {
   const cardData = [
     {
       title: "Biggest Health Challenge ™",
-      description: "The biggest health challenge today is maintaining consistency in leading a healthy lifestyle. Many individuals struggle with staying motivated, accessing support, and making sustainable health improvements. This inconsistency often leads to preventable illnesses, higher healthcare costs, and reduced quality of life.",
+      description: "The Biggest Health Challenge today is maintaining consistency in leading a healthy lifestyle. Many individuals struggle with staying motivated, accessing support, and making sustainable health improvements. This inconsistency often leads to preventable illnesses, higher healthcare costs, and reduced quality of life.",
       imageUrl: bhc,
       link: "https://biggesthealthchallenge.com/",
     },

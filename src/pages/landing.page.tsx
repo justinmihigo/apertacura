@@ -17,12 +17,12 @@ const LandingPage: FunctionComponent = () => {
                 <div>
                     <h1 className="text-3xl py-6 font-bold">About us</h1>
                 </div>
-                <div className="max-w-6xl text-sm md:text-base py-4 p-6">
+                <div className="max-w-6xl text-[0.8rem] md:text-base py-4 p-6">
                     <div >
                         <div className="p-4 bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                             
                             <div>
-                                <p className="text-xl mt-4 font-bold">Apertacura</p>
+                                <p className="text-[0.9rem] md:text-xl mt-4 font-bold">Apertacura</p>
                             </div>
                             <p className="py-4">
                                 Why wait for a health problem when you can stay ahead of it? At ApertaCura, we believe wellness should be proactive, not reactive. Our dynamic digital platform blends smart technology with personalized insights, helping individuals and organizations take charge of their well-being before issues arise. With intuitive, data-driven tools, we make health management simple, empowering you to live better, longer, and stronger.

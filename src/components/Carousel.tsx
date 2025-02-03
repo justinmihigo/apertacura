@@ -63,8 +63,8 @@ return (
                             <div className="absolute top-0 w-full bg-black opacity-50 h-full p-6" />
                             <div className='absolute top-[40%] w-full'>
                                 <div className='flex flex-col items-center text-white text-center'>
-                                    <h2 className="text-[1.5em] md:text-[2rem] font-bold w-1/2 mb-2">{slide.title}</h2>
-                                    <p className="hidden text-justify md:block md:text-xl w-1/2">{slide.description}</p>
+                                    <h2 className="text-[0.9rem] md:text-[2rem] font-bold w-1/2 mb-2">{slide.title}</h2>
+                                    <p className="text-[0.8rem] text-justify md:block md:text-xl w-1/2">{slide.description}</p>
                                 </div>
                             </div>
                         </div>

@@ -1,4 +1,4 @@
-import TermsOfService from "../components/terms";
+import TermsOfService from "../components/Terms";
 
 const TermsOfServicePage =()=>{
     return(

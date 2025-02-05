@@ -89,14 +89,12 @@ const Footer = () => {
             <div className="mt-4 md:mt-0">
               <ul className="flex flex-wrap space-x-8 text-sm">
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+                  <a href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+                  <a href="/terms-of-service" className="hover:text-white transition-colors">Terms of Service</a>
                 </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">Cookie Policy</a>
-                </li>
+                
               </ul>
             </div>
           </div>

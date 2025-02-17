@@ -48,15 +48,15 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center space-x-2">
                 <Mail size={18} />
-                <span>contact@apertacura.com</span>
-              </li>
-              <li className="flex items-center space-x-2">
-                <Phone size={18} />
-                <span>+23 291-123-5674</span>
+                <span>info@apertacura.com</span>
               </li>
               <li className="flex items-center space-x-2">
                 <MapPin size={18} />
-                <span>KB 123 street, Nairobi, Kenya</span>
+                <span>Norrsken Kigali, 1KN 78ST</span>
+              </li>
+              <li className="flex items-center space-x-2">
+                <MapPin size={18} />
+                <span>Nairobi Garage Kilimani</span>
               </li>
             </ul>
           </div>

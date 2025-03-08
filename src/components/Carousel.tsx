@@ -1,26 +1,14 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-const Carousel = () => {
-    const [currentSlide, setCurrentSlide] = useState(0);
+interface slides{
+    title: string,
+    description?:string,
+    imageUrl?:string|any 
+}
 
-    const slides = [
-        {
-            title: "Transforming healthcare one habit at a time",
-            description: "Our mission is to empower individuals and organizations to prioritize health and well- being through innovative, data - driven tools that simplify health management and improve outcomes",
-            imageUrl: "https://hbr.org/resources/images/article_assets/2019/10/Oct19_22_1032609198.jpg",
-        },
-    {
-        title: "Personalized Health Solutions",
-        description: "Experience healthcare tailored to your unique needs with our AI-powered platform that adapts and evolves with you, providing customized recommendations and real-time health insights.",
-        imageUrl: "https://images.pexels.com/photos/2383010/pexels-photo-2383010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    },
-    {
-        title: "Building Healthier Communities Together",
-        description: "Join our growing network of healthcare providers, organizations, and individuals committed to revolutionizing healthcare delivery through collaborative wellness programs and preventive care initiatives.",
-        imageUrl: "https://images.pexels.com/photos/4719931/pexels-photo-4719931.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    }
-    ];
+const Carousel= ({slides}:{slides:slides[]}) => {
+    const [currentSlide, setCurrentSlide] = useState(0);
 
 // Auto-play functionality
 useEffect(() => {
